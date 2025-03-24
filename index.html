@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Expense Tracker</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="tracker.js" defer></script>
+	</head>
+	<body>
+		<h1>Expense Tracker</h1>
+		<form id="expenseForm">
+			<input type="number" id="amount" placeholder="Amount" required />
+			<input
+				type="text"
+				id="description"
+				placeholder="Description"
+				required />
+			<button type="submit">Add Expense</button>
+		</form>
+
+		<h2>Expenses</h2>
+		<table id="expenseTable">
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>Date</th>
+					<th>Time</th>
+					<th>Category</th>
+					<th>Amount</th>
+					<th>Description</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Expenses will be dynamically added here -->
+			</tbody>
+		</table>
+
+		<h3>Total Expenses today: <span id="dailyExpenses">0</span></h3>
+		<h3>Total Expenses this month: <span id="monthlyExpenses">0</span></h3>
+		<h3>All Expenses: <span id="totalExpenses">0</span></h3>
+
+		<h2 class="filter">Filter Expense</h2>
+		<form id="filterForm">
+			<input
+				type="text"
+				id="filterInput"
+				placeholder="wetin you dey find 🙄"
+				required />
+			<button type="submit" id="filterBtn">Find Expense</button>
+			<button type="submit" id="clearFilter">Clear Filter</button>
+		</form>
+	</body>
+</html>
