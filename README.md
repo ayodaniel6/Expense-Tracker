@@ -36,7 +36,7 @@ Include visuals of:
 
 #### Installation  
 ```bash
-git clone https://github.com/yourusername/expenseguard.git  
+git clone git@github.com:ayodaniel6/Expense-Tracker.git  
 cd expenseguard  
 open index.html  
 ```
