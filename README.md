@@ -24,6 +24,23 @@ Looking for collaborators to help add features like:
 
 *Open to all contributions! Check the "Issues" tab for starter tasks.*  
 
+#### Live Demo  
+🔗 [Try ExpenseGuard Live Here!](https://ayodaniel6.github.io/Expense-Tracker/) 
+
+#### Screenshots  
+![Expense Tracker](https://github.com/user-attachments/assets/fbf668aa-2526-4e16-9d7d-33a8d60aea7d)
+
+Include visuals of:  
+- The clean interface  
+- Total expense charts  
+
+#### Installation  
+```bash
+git clone https://github.com/yourusername/expenseguard.git  
+cd expenseguard  
+open index.html  
+```
+
 #### Future Goals  
 🌟 **Planned Features**:  
 - Dark mode toggle  
